@@ -1,0 +1,29 @@
+.headerSignInButtonTrue {
+  height: 3rem;
+  color: white;
+  padding: 0 2rem;
+  border-radius: 3rem;
+  background-color: #eba417;
+
+  gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, auto);
+}
+
+.headerSignInButtonFalse {
+  height: 3rem;
+  color: white;
+  padding: 0 2rem;
+  border-radius: 3rem;
+  background-color: #1f2729;
+
+  gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, auto);
+}
